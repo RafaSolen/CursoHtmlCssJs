@@ -1,6 +1,6 @@
 * {
-    box-sizing: content-box;
-    font-family: "Lucida Console";
+    box-sizing: Border-box;
+    font-family: 'Roboto', sans-serif;
     margin: auto;
 }
 
@@ -16,38 +16,54 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     top: 0px;
-
 }
 
 header a {
     color: white;
     text-decoration: none;
-    padding: 0 1.8rem;
     
 }
 
 .header-container {
+    /*
     margin: auto;
     max-width: 1073px;
     padding-bottom: 14px;
     padding-top: 14px;
+    */
+    /*
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 2rem;
+    grid-template-columns: repeat(auto-fill);
+    text-align: left;
+    */
+    margin: auto;
+    padding: auto;
+   
 }
 
 h1 {
     display: inline;
+    padding: 0px 0px 0px 10px;
 }
 
 nav {
     float: right;
+    margin-top: 10px;
 }
 
 header nav ul {
-    margin-top: 14px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
 }
 
 header li {
     font-size: 18px;
-    display: inline;
+    margin: 0px 10px 0px 10px;
+    display: inline-block;
     list-style: none;
 }
 /*---Presentation---*/

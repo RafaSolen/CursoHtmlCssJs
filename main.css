@@ -153,6 +153,55 @@ div p {
     padding: 4rem;
 
 }
-/*---Footer--*/
+/*--Reservation--*/
 
+.reservation {
+    height: 550px;
+    text-align: center;
+    margin-top: 1rem;
+}
+.form-central {
+    display: block;
+}
 
+.form-left {
+    float: left;
+    text-align: center;
+    width: 50%;
+    height: 300px;
+}
+
+.form-right {
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 300px;
+}
+
+.reservation label {
+    display: block;
+    padding: 1.2rem;
+}
+
+input [type = "text"],
+input [type = "time"],
+input [type = "date"],
+input [type = "email"],
+input [type = "number"]{
+    width: 12rem;   
+}
+
+textarea {
+    display: block; 
+    margin-bottom: 1rem;
+}
+
+input [type = "submit"]{
+    font-size: 16px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 2rem;
+}
